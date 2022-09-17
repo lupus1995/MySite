@@ -1,0 +1,103 @@
+.firstBlock {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #333;
+
+    @media (min-width: 360px) {
+        background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@480.jpg');
+    }
+
+    @media (min-width: 481px) {
+        background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@720.jpg');
+    }
+
+    @media (min-width: 721px) {
+        background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@1080.jpg');
+    }
+
+    @media (min-width: 1081px) {
+        background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@1366.jpg');
+    }
+
+    @media (min-width: 1367px) {
+        background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@1920.jpg');
+    }
+
+    @media (min-width: 1921px) {
+        background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@2560.jpg');
+    }
+
+    @media only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+        @media (min-width: 360px) {
+            background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@960.jpg');
+        }
+
+        @media (min-width: 481px) {
+            background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@1440.jpg');
+        }
+
+        @media (min-width: 721px) {
+            background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@2160.jpg');
+        }
+
+        @media (min-width: 1081px) {
+            background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@2732.jpg');
+        }
+
+        @media (min-width: 1367px) {
+            background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@3840.jpg');
+        }
+
+        @media (min-width: 1921px) {
+            background-image: url('../img/forest-nature-path-woodland-wallpaper-7896fd18d080cc98f02c211e98a244ea@5120.jpg');
+        }
+    }
+}
+
+@media (min-width: 360px) {
+    .title {
+        font-size: 25px;
+        width: 100%;
+        display: block;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 481px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 721px) {
+    .title {
+        font-size: 48px;
+       
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,92 @@
+@media (min-width: 360px) {
+    .articlesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articleContainer {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 721px) {
+    .articlesContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .articleContainer {
+        width: 47%;
+        margin: 0 6% 30px 0;
+    }
+}
+
+@media(min-width: 721px) and (max-width: 1080px) {
+    .articleContainer {
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+
+        &:nth-last-child(-n + 1), &:nth-last-child(-n + 2) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (min-width: 1081px) {
+    .articleContainer {
+        width: 29%;
+        margin-right: 6.5%;
+    }
+}
+
+@media(min-width: 1081px) and (max-width: 1366px) {
+    .articleContainer {
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (min-width: 1367px) {
+    .articleContainer {
+        width: 21%;
+        margin-right: 5.3%;
+    }
+}
+
+@media(min-width: 1367px) and (max-width: 1920px) {
+    .articleContainer {
+        &:nth-child(4n) {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (min-width: 1921px) {
+    .articleContainer {
+        width: 15%;
+        margin-right: 6.25%;
+
+        &:nth-child(5n) {
+            margin-right: 0;
+        }
+    }
+}
+
+
+.previewImage {
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.previewTitle {
+    font-size: 30px;
+}
+
+.previewDescription {
+    font-size: 18px;
+}
